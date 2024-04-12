@@ -1,0 +1,6 @@
+@CRUDWithEFDbFirstWebApi_HostAddress = http://localhost:5128
+
+GET {{CRUDWithEFDbFirstWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
