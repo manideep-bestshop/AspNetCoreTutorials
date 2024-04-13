@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "74c8e371-972f-48dd-9314-333d92633c60",
+		"name": "Product API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Product List",
+			"id": "1bcc5dde-e379-42c9-bec8-e85786d4e230",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5128/api/Product/get"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Product",
+			"id": "5ac3c827-6997-4393-80ed-0fdc7fb88a3a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n        \"productName\": \"Power Bank\",\r\n        \"price\": 3300,\r\n        \"qty\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5128/api/Product/post"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"id": "32e304f2-b961-47fc-bb02-be45ce615e49",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n          \"id\": 1,\r\n        \"productName\": \"Laptop\",\r\n        \"price\": 55000,\r\n        \"qty\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5128/api/Product/put"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"id": "e3c26306-d439-4c1a-b76b-497f489bb9d1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5128/api/Product/delete"
+			},
+			"response": []
+		}
+	]
+}
