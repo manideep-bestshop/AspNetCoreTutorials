@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWithEFDbFirstWebApi", "CRUDWithEFDbFirstWebApi\CRUDWithEFDbFirstWebApi.csproj", "{22AA9DE4-3006-4151-8D9B-79ECA6423840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWithEFDbFirstWebApi", "CRUDWithEFDbFirstWebApi\CRUDWithEFDbFirstWebApi.csproj", "{22AA9DE4-3006-4151-8D9B-79ECA6423840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWebApi", "ConsumeWebApi\ConsumeWebApi.csproj", "{EFE094FC-33A8-498E-8BE0-45C31AB8F863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
