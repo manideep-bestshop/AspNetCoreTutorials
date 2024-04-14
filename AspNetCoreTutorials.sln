@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWithEFDbFirstWebApi", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWebApi", "ConsumeWebApi\ConsumeWebApi.csproj", "{EFE094FC-33A8-498E-8BE0-45C31AB8F863}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationForProduct", "JWTAuthenticationForProduct\JWTAuthenticationForProduct.csproj", "{E38B2425-4523-47D2-95FC-75833BC2676F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38B2425-4523-47D2-95FC-75833BC2676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38B2425-4523-47D2-95FC-75833BC2676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38B2425-4523-47D2-95FC-75833BC2676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38B2425-4523-47D2-95FC-75833BC2676F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
