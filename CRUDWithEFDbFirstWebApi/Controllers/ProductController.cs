@@ -1,5 +1,6 @@
 ﻿using CRUDWithEFDbFirstWebApi.DAL;
 using CRUDWithEFDbFirstWebApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -16,6 +17,7 @@ namespace CRUDWithEFDbFirstWebApi.Controllers
             _context = context;
         }
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             try
