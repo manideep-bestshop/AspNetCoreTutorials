@@ -40,7 +40,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
+app.UseAuthentication(); //To make authentication service available to application
 app.UseAuthorization();
 
 app.MapControllers();
