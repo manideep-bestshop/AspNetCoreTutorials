@@ -1,4 +1,5 @@
                                 Authentication And Authorization
+                                --------------------------------
 Authentication
 Authentication is like showing your ID to prove who you are. For example , when we buy the tickets in PVR cinemas , At the entrance they will ask to show ticket(authentication) , if we show tickets they will allow.
 Authentication  typically involves the use of usernames, passwords, biometric data (fingerprints or facial recognition), security tokens
