@@ -61,7 +61,7 @@ namespace JWTAuthenticationForProduct.Controllers
 
             //Validate the User Credentials
             //Demo Purpose, I have Passed HardCoded User Information
-            if (login.Username.ToLower() == "manideep")
+            if (login.Username.ToLower() == "manideep"&&login.Password=="manideep@123")
             {
                 user = new UserModel { Username = login.Username, EmailAddress = login.EmailAddress, DateOfJoing = login.DateOfJoing };
             }

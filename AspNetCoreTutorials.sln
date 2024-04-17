@@ -5,9 +5,13 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDWithEFDbFirstWebApi", "CRUDWithEFDbFirstWebApi\CRUDWithEFDbFirstWebApi.csproj", "{22AA9DE4-3006-4151-8D9B-79ECA6423840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWebApi", "ConsumeWebApi\ConsumeWebApi.csproj", "{EFE094FC-33A8-498E-8BE0-45C31AB8F863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeWebApi", "ConsumeWebApi\ConsumeWebApi.csproj", "{EFE094FC-33A8-498E-8BE0-45C31AB8F863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationForProduct", "JWTAuthenticationForProduct\JWTAuthenticationForProduct.csproj", "{E38B2425-4523-47D2-95FC-75833BC2676F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthenticationForProduct", "JWTAuthenticationForProduct\JWTAuthenticationForProduct.csproj", "{E38B2425-4523-47D2-95FC-75833BC2676F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceTutorial", "WindowsServiceTutorial\WindowsServiceTutorial.csproj", "{811E5E0A-FDF7-40AD-93C4-AE3348094B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceBasic", "WindowsServiceBasic\WindowsServiceBasic.csproj", "{15B79ABA-31F6-45FD-B11E-CDF971BF73F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,17 +20,22 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22AA9DE4-3006-4151-8D9B-79ECA6423840}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE094FC-33A8-498E-8BE0-45C31AB8F863}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E38B2425-4523-47D2-95FC-75833BC2676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E38B2425-4523-47D2-95FC-75833BC2676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E38B2425-4523-47D2-95FC-75833BC2676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E38B2425-4523-47D2-95FC-75833BC2676F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811E5E0A-FDF7-40AD-93C4-AE3348094B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811E5E0A-FDF7-40AD-93C4-AE3348094B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811E5E0A-FDF7-40AD-93C4-AE3348094B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811E5E0A-FDF7-40AD-93C4-AE3348094B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B79ABA-31F6-45FD-B11E-CDF971BF73F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B79ABA-31F6-45FD-B11E-CDF971BF73F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B79ABA-31F6-45FD-B11E-CDF971BF73F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B79ABA-31F6-45FD-B11E-CDF971BF73F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
