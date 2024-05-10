@@ -10,29 +10,36 @@ namespace ProductWebAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+        private readonly string _connectionString;
+
         private readonly ProductDbContext _context;
-        public ProductController(ProductDbContext context)
+        public ProductController(ProductDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
         [HttpGet]
-        [Authorize]
+       // [Authorize]
         public IActionResult Get()
         {
-            try
-            {
-                var products = _context.Products.ToList();
-                if (products.Count == 0)
-                {
-                    return NotFound("No data Found..");
-                }
-                return Ok(products);
-            }
-            catch (Exception ex)
-            {
 
-                return BadRequest(ex.Message);
-            }
+            var repository = new DapperGetProducts(_connectionString);
+            var products = repository.GetProducts();
+            return Ok(products);   
+            //try
+            //{
+            //    var products = _context.Products.ToList();
+            //    if (products.Count == 0)
+            //    {
+            //        return NotFound("No data Found..");
+            //    }
+            //    return Ok(products);
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    return BadRequest(ex.Message);
+            //}
         }
         [HttpGet("{id}")]
         public IActionResult Get(int id)
